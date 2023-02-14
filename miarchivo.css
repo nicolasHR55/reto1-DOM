@@ -1,0 +1,42 @@
+.section .title {
+    background-color: #e6e6e6;
+    color: #333;
+    cursor: pointer;
+    padding: 10px;
+  }
+  
+  .section .content {
+    display: none;
+    padding: 10px;
+  }
+  
+  .section .active .content {
+    display: block;
+  }
+  
+  .section .title:hover {
+    background-color: #d9d9d9;
+  }
+  
+  .section .active .title {
+    background-color: #ccc;
+  }
+  .theme1 {
+    background-color: #f0f0f0;
+    color: #333;
+}
+.theme2 {
+    background-color: rgb(252, 32, 204);
+    color: #eac452;
+}
+.theme3 {
+    background-color: #504eeb;
+    color: rgb(119, 235, 73);
+}
+.acordeon {
+    display: none;
+}
+
+.acordeon.active {
+    display: block;
+}
